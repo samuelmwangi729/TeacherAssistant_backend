@@ -34,13 +34,18 @@ This project is a web application designed to help Computer Studies teachers mar
    ```bash
    git https://github.com/samuelmwangi729/TeacherAssistant_backend.git
    cd <clone directory>
+   ```
 2. **setup the environment**
-`python -m virtualenv venv`
+```bash
+    `python -m virtualenv venv`
    `source venv/bin/activate`  # On Windows use `venv\Scripts\activate`
    `pip install -r requirements.txt`
+   ```
 3. **run the server** 
+    ```bash
     `python manage.py migrate`
     `python manage.py runserver`
+    ```
 ## API Reference
 
 #### Get all items
@@ -64,8 +69,6 @@ This project is a web application designed to help Computer Studies teachers mar
 | `file`      | `file` | **Required**.|
 
 ## Badges
-
-Add badges from somewhere like: [shields.io](https://shields.io/)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
