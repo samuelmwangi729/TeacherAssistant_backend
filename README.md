@@ -37,17 +37,17 @@ This project is a web application designed to help Computer Studies teachers mar
    ```
 2. **setup the environment**
 
-```bash
+   ```bash
    python -m virtualenv venv
    source venv/bin/activate # On Windows use venv\Scripts\activate
    pip install -r requirements.txt`
    ```
 3. **run the server** 
 
-```bash
+   ```bash
     python manage.py migrate
     python manage.py runserver
-    
+    ```
 ## API Reference
 
 #### Get all items
