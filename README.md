@@ -34,10 +34,11 @@ This project is a web application designed to help Computer Studies teachers mar
    ```bash
    git https://github.com/samuelmwangi729/TeacherAssistant_backend.git
    cd <clone directory>
-2. python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   pip install -r requirements.txt
-3. run the server 
+2. **setup the environment**
+`python -m virtualenv venv`
+   `source venv/bin/activate`  # On Windows use `venv\Scripts\activate`
+   `pip install -r requirements.txt`
+3. **run the server** 
     `python manage.py migrate`
     `python manage.py runserver`
 ## API Reference
